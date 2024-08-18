@@ -1,4 +1,4 @@
-use rust_test::add;
+use crate::*;
 
 #[cfg(test)]
 mod tests {
@@ -15,3 +15,5 @@ mod tests {
     //     panic!("Make this test fail");
     // }
 }
+
+// cargo test --package rust_test --lib -- tests::integration_tests::tests --show-output
